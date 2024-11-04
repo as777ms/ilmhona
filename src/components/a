@@ -1,0 +1,53 @@
+
+            <Link to="/">Home</Link>            {/* Header Links */}
+            <Link to="/profession-android-dev">Android Developer</Link>            <Link o="/profession-ios-dev">iOS Developer</Link>            <Link o="/profession-project-manager">Project Manager</Link>
+            <Link to="/profession-python-beckend-dev">Python Backend Developer</Link>
+            <Link to="/profession-graphic-design">Graphic Designer</Link>
+            <Link to="/profession-front-end-dev">Front-end Developer</Link>
+            <Link to="/profession-js-backend-dev">JS Backend Developer</Link>
+            {/* Courses Dates Links */}
+            <Link to="/course-digital-freelance">Digital Freelance</Link>
+            <Link to="/course-python-lvl-1">Python Level 1</Link>
+            <Link to="/course-webdesign">Web Design</Link>
+            <Link to="/course-web-zero">Web Zero</Link>
+            <Link to="/course-js-lvl-1">JS Level 1</Link>
+            <Link to="/course-smm">SMM</Link>
+            {/* Footer Links */}
+            <Link to="/course-android-zero">Android Zero</Link>
+            <Link to="/course-android-lvl-1">Android Level 1</Link>
+            <Link to="/course-ios-zero">iOS Zero</Link>
+            <Link to="/course-ios-lvl-1">iOS Level 1</Link>
+            <Link to="/course-python-zero">Python Zero</Link>
+            <Link to="/course-python-lvl-2">Python Level 2</Link>
+            <Link to="/course-web-zero">Web Zero</Link>
+            <Link to="/course-js-lvl-2-frontend">JS Level 2 Frontend</Link>
+            <Link to="/course-js-lvl-2-beckend">JS Level 2 Backend</Link>
+            <Link to="/course-project-managment-intro">Project Management Intro</Link>
+            <Link to="/course-project-managment-lvl-1">Project Management Level 1</Link>
+            <Link to="/course-project-managment-lvl-2">Project Management Level 2</Link>
+            <Link to="/course-graphic-design-zero">Graphic Design Zero</Link>
+            <Link to="/course-graphic-design-lvl-1">Graphic Design Level 1</Link>
+            <Link to="/course-graphic-designer-pro">Graphic Designer Pro</Link>
+            <Link to="/course-english-elementary">English Elementary</Link>
+            <Link to="/course-english-for-tech">English for Tech</Link>
+            <Link to="/course-intro-to-data">Intro to Data</Link>
+            <Link to="/course-product-management">Product Management</Link>
+            <Link to="/course-ux-ui">UX/UI</Link>
+            <Link to="/course-ilmhonakids-storytelling-with-scatch">Storytelling with Scratch</Link>
+            <Link to="/course-ilmhonakids-cs50">CS50</Link>
+            {/* Professions Links */}
+            <Link to="/profession-android-dev">Profession Android Dev</Link>
+            <Link to="/profession-ios-dev">Profession iOS Dev</Link>
+            <Link to="/profession-frontend-dev">Profession Frontend Dev</Link>
+            <Link to="/profession-js-backend-dev">Profession JS Backend Dev</Link>
+            <Link to="/profession-python-backend-dev">Profession Python Backend Dev</Link>
+            <Link to="/profession-graphic-design">Profession Graphic Design</Link>
+            <Link to="/profession-project-manager">Profession Project Manager</Link>
+            <Link to="/donishgo">Donishgo</Link>
+            <Link to="/blog/all">Blog All</Link>
+            <Link to="/tech-jam">Tech Jam</Link>
+            <Link to="/faqs">FAQs</Link>
+            <Link to="/location">Location</Link>
+            <Link to="/about">About</Link>
+            <Link to="/support-us">Support Us</Link>
+            <Link to="/course-digital-freelance">Course Digital Freelance</Link>
