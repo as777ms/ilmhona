@@ -1,4 +1,5 @@
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import Main from './pages/main/main'
 import Digitalfreelance from './pages/digitalfreelance/digitalfreelance'
 import Androiddev from './pages/androiddev/androiddev'
@@ -53,14 +54,42 @@ import Coursedigitalfreelance from './pages/coursedigitalfreelance/coursedigital
 import Layout from './components/layout/layout'
 
 // img
-import ilmhona from './assets/img/no_ilmhona_colored_logo_small_new.svg'  
+import ilmhona from './assets/img/ilmhona.svg'  
 
+import chil1 from './assets/img/chil1.jpg'
+import chil2 from './assets/img/chil2.jpg'
+import chil3 from './assets/img/chil3.jpg'
+import Courses from './pages/courses/courses'
+import News from './pages/news/news'
+
+
+//darkMode
 const App = () => {
+
+  // State for Dark Mode
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark'); // Apply 'dark' class to <html>
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [darkMode])
   return (
    <Router>
+
+<div className={darkMode ? 'dark-mode' : 'light-mode'}>
+        {/* Dark Mode Toggle */}
+
     <Routes>
-      <Route element={<Layout />}>
-      <Route path='/' element={<Main ilmhona={ilmhona}/>}/>
+      <Route 
+          path="/"
+          element={<Layout darkMode={darkMode} onToggleDarkMode={toggleDarkMode} ilmhona={ilmhona}/>}>
+      <Route path='/' element={<Main ilmhona={ilmhona} image1={chil1} image2={chil2} image3={chil3}/>}/>
 
       {/* header  */}
       <Route path='/profession-android-dev' element={<Androiddev />}/>
@@ -128,11 +157,13 @@ const App = () => {
       <Route path='/location' element={<Location />}/>
       <Route path='/about' element={<About />}/>
       <Route path='/support-us' element={<Support />}/>
+      <Route path='/courses' element={<Courses />}/>
+      <Route path='/news' element={<News />}/>
       
-
       <Route path='/course-digital-freelance' element={<Coursedigitalfreelance />}/>
       </Route>
     </Routes>
+    </div>
    </Router>
   )
 }

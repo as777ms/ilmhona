@@ -1,0 +1,36 @@
+.slide-container {
+    position: relative;
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* You can change the text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    padding: 20px;
+  }
+  
+  .text-overlay h1 {
+    margin: 0;
+  }
+  
+  .text-overlay button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .text-overlay button:hover {
+    background-color: #ddd;
+  }
+  

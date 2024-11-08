@@ -1,0 +1,17 @@
+/* Tailwind-based custom styles */
+.mySwiper .swiper-scrollbar {
+    @apply h-1 bg-transparent; /* Height of the underline */
+  }
+  
+  .mySwiper .swiper-scrollbar-drag {
+    @apply bg-blue-500 rounded-md; /* Custom color for underline */
+  }
+  
+  .mySwiper .swiper-pagination-bullet {
+    @apply bg-blue-500 opacity-50 w-2 h-2; /* Pagination bullet style */
+  }
+  
+  .mySwiper .swiper-pagination-bullet-active {
+    @apply bg-orange-500 opacity-100; /* Active bullet color */
+  }
+  
